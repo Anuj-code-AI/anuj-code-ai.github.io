@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Anuj Chourasiya – Backend Developer specializing in Java, Spring Boot, and Cloud-native systems." />
+  <title>Anuj Chourasiya – Backend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">AC<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="Resume.pdf" download class="nav-cta">Resume ↓</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#about">About</a>
+      <a href="#stack">Stack</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+      <a href="Resume.pdf" download class="mobile-cta">Download Resume</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        Open to internships & full-time roles
+      </div>
+      <h1 class="hero-title reveal">
+        Hi, I'm<br />
+        <span class="gradient-text">Anuj Chourasiya.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        I build <strong>production-grade backend systems</strong> — secure APIs, scalable architectures, and cloud-native applications using Java, Spring Boot, and Docker.
+      </p>
+      <div class="hero-tags reveal">
+        <span class="tag">Java</span>
+        <span class="tag">Spring Boot</span>
+        <span class="tag">Docker</span>
+        <span class="tag">REST APIs</span>
+        <span class="tag">Spring AI</span>
+      </div>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="Resume.pdf" download class="btn-ghost">Download Resume ↓</a>
+        <a href="#contact" class="btn-ghost">Contact Me</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num">280<span class="accent">+</span></span>
+          <span class="stat-label">DSA Problems</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">3<span class="accent">+</span></span>
+          <span class="stat-label">Production Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">2<span class="accent"></span></span>
+          <span class="stat-label">Hackathons</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label reveal">About</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">I don't build tutorials.<br />I build systems.</h2>
+          <p>Backend engineering is where complexity meets craft. I specialize in designing secure, well-structured REST APIs using <strong>Java and Spring Boot</strong>, and I take architecture seriously — not as an afterthought, but as the foundation everything else depends on.</p>
+          <p>Right now I'm deepening my expertise in <strong>microservices, distributed systems,</strong> and <strong>AI-powered backends</strong> using Spring AI. I containerize with Docker, model data carefully, and write code I'm not embarrassed to show in interviews.</p>
+          <p>I've participated in two national hackathons — <strong>Smart India Hackathon 2025</strong> and <strong>Hack'Vento 2026</strong> — and I'm currently studying at <strong>Medicaps University, Indore</strong> in Information Technology.</p>
+          <p>My goal is simple: land a role where I'm solving problems that actually matter, at a company that cares about engineering quality.</p>
+          <div class="about-links">
+            <a href="https://github.com/Anuj-code-AI" target="_blank" class="about-link">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/anujchourasiya" target="_blank" class="about-link">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="about-card-col reveal">
+          <div class="about-card">
+            <div class="about-card-icon">⚙️</div>
+            <h3>Backend-First</h3>
+            <p>Systems designed for correctness, then performance. API contracts are first-class citizens.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">🔐</div>
+            <h3>Security Built-In</h3>
+            <p>JWT, OAuth 2.0, Spring Security — authentication and authorization aren't bolted on later.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">🐳</div>
+            <h3>Cloud-Native</h3>
+            <p>Docker, Docker Compose, and a path towards Kubernetes and AWS production deployments.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">🤖</div>
+            <h3>AI-Augmented</h3>
+            <p>Currently building with Spring AI and LLMs to create intelligent, context-aware backends.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH STACK -->
+  <section class="section section-alt" id="stack">
+    <div class="container">
+      <div class="section-label reveal">Tech Stack</div>
+      <h2 class="section-title reveal">What I work with</h2>
+      <p class="section-sub reveal">Tools and technologies I use to build production-grade systems.</p>
+      <div class="stack-grid">
+
+        <div class="stack-card reveal">
+          <div class="stack-card-header">
+            <span class="stack-icon">💻</span>
+            <h3>Languages</h3>
+          </div>
+          <div class="stack-items">
+            <span class="stack-item primary">Java</span>
+            <span class="stack-item primary">SQL</span>
+            <span class="stack-item">Python</span>
+            <span class="stack-item">C++</span>
+            <span class="stack-item">JavaScript</span>
+            <span class="stack-item">HTML / CSS</span>
+          </div>
+        </div>
+
+        <div class="stack-card reveal">
+          <div class="stack-card-header">
+            <span class="stack-icon">🔧</span>
+            <h3>Backend</h3>
+          </div>
+          <div class="stack-items">
+            <span class="stack-item primary">Spring Boot</span>
+            <span class="stack-item primary">Spring Security</span>
+            <span class="stack-item primary">Spring Data JPA</span>
+            <span class="stack-item">Hibernate</span>
+            <span class="stack-item">REST APIs</span>
+            <span class="stack-item">JWT</span>
+            <span class="stack-item">OAuth 2.0</span>
+            <span class="stack-item">Swagger / OpenAPI</span>
+          </div>
+        </div>
+
+        <div class="stack-card reveal">
+          <div class="stack-card-header">
+            <span class="stack-icon">🗄️</span>
+            <h3>Databases</h3>
+          </div>
+          <div class="stack-items">
+            <span class="stack-item primary">PostgreSQL</span>
+            <span class="stack-item primary">MySQL</span>
+            <span class="stack-item">Redis</span>
+          </div>
+        </div>
+
+        <div class="stack-card reveal">
+          <div class="stack-card-header">
+            <span class="stack-icon">🐳</span>
+            <h3>DevOps</h3>
+          </div>
+          <div class="stack-items">
+            <span class="stack-item primary">Docker</span>
+            <span class="stack-item primary">Docker Compose</span>
+            <span class="stack-item learning">Kubernetes ↗</span>
+            <span class="stack-item learning">AWS ↗</span>
+            <span class="stack-item learning">CI/CD ↗</span>
+          </div>
+        </div>
+
+        <div class="stack-card reveal">
+          <div class="stack-card-header">
+            <span class="stack-icon">🛠️</span>
+            <h3>Tools</h3>
+          </div>
+          <div class="stack-items">
+            <span class="stack-item primary">Git / GitHub</span>
+            <span class="stack-item">IntelliJ IDEA</span>
+            <span class="stack-item">Postman</span>
+            <span class="stack-item">Maven</span>
+          </div>
+        </div>
+
+        <div class="stack-card reveal learning-card">
+          <div class="stack-card-header">
+            <span class="stack-icon">📡</span>
+            <h3>Currently Learning</h3>
+          </div>
+          <div class="stack-items">
+            <span class="stack-item learning">Microservices</span>
+            <span class="stack-item learning">Spring AI</span>
+            <span class="stack-item learning">Distributed Systems</span>
+            <span class="stack-item learning">Cloud Architecture</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label reveal">Projects</div>
+      <h2 class="section-title reveal">Things I've built</h2>
+      <p class="section-sub reveal">Real systems. Real architecture decisions. No tutorial clones.</p>
+
+      <!-- CampusHive - Flagship -->
+      <div class="project-featured reveal">
+        <div class="project-badge">Flagship Project</div>
+        <div class="project-featured-grid">
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-date">Apr 2026 – Jul 2026</span>
+              <span class="project-status active">Completed</span>
+            </div>
+            <h3 class="project-title">CampusHive</h3>
+            <p class="project-desc">A multi-university event management platform built as a production-grade backend system. Handles event management, ticket booking, and student communities — with security and scalability as non-negotiables.</p>
+            <div class="project-highlights">
+              <div class="highlight">🔐 JWT + OAuth 2.0 auth with role-based access control</div>
+              <div class="highlight">📄 Paginated REST APIs following production conventions</div>
+              <div class="highlight">🐳 Dockerized with Docker Compose for local & cloud deployment</div>
+              <div class="highlight">🏛️ Modular, layered architecture with Spring Security</div>
+            </div>
+            <div class="project-stack">
+              <span>Java</span><span>Spring Boot</span><span>Spring Security</span>
+              <span>JWT</span><span>OAuth 2.0</span><span>MySQL</span><span>Docker</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/Anuj-code-AI" target="_blank" class="btn-primary sm">GitHub ↗</a>
+            </div>
+          </div>
+          <div class="project-visual">
+            <div class="project-screen">
+              <div class="screen-bar"><span></span><span></span><span></span></div>
+              <div class="screen-content">
+                <div class="code-line"><span class="c-purple">@RestController</span></div>
+                <div class="code-line"><span class="c-blue">@RequestMapping</span><span class="c-white">("/api/events")</span></div>
+                <div class="code-line"><span class="c-purple">public class</span> <span class="c-yellow">EventController</span> <span class="c-white">{</span></div>
+                <div class="code-line indent"><span class="c-purple">@GetMapping</span></div>
+                <div class="code-line indent"><span class="c-purple">@PreAuthorize</span><span class="c-white">("hasRole('STUDENT')")</span></div>
+                <div class="code-line indent"><span class="c-blue">public</span> <span class="c-yellow">Page&lt;EventDto&gt;</span> <span class="c-white">getEvents(</span></div>
+                <div class="code-line indent2"><span class="c-purple">@PageableDefault</span> <span class="c-yellow">Pageable</span> <span class="c-white">pageable) {</span></div>
+                <div class="code-line indent2"><span class="c-blue">return</span> <span class="c-white">eventService.findAll(pageable);</span></div>
+                <div class="code-line indent"><span class="c-white">}</span></div>
+                <div class="code-line"><span class="c-white">}</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Grid -->
+      <div class="projects-grid">
+
+        <!-- AI Ad Generator -->
+        <div class="project-card reveal">
+          <div class="project-meta">
+            <span class="project-date">Jul 2026 – Present</span>
+            <span class="project-status building">Building</span>
+          </div>
+          <h3>AI Advertisement Generator</h3>
+          <p>AI-powered platform for advertisement generation and intelligent customer support. Integrating LLMs for context-aware content generation with Redis caching and prompt engineering.</p>
+          <div class="project-stack sm">
+            <span>Spring AI</span><span>LLMs</span><span>Redis</span><span>Docker</span>
+          </div>
+          <div class="coming-soon-overlay">
+            <div class="cs-inner">
+              <div class="cs-pulse"></div>
+              <span>In Progress</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotel Management -->
+        <div class="project-card reveal">
+          <div class="project-meta">
+            <span class="project-date">Dec 2025</span>
+            <span class="project-status active">Completed</span>
+          </div>
+          <h3>Hotel Management System</h3>
+          <p>Console-based hotel management system built with Java, JDBC, and MySQL. Implements room booking, customer management, billing, and check-in/check-out with clean OOP design.</p>
+          <div class="project-stack sm">
+            <span>Java</span><span>JDBC</span><span>MySQL</span>
+          </div>
+          <div class="project-actions mt">
+            <a href="https://github.com/Anuj-code-AI" target="_blank" class="btn-ghost sm">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Microservices -->
+        <div class="project-card reveal soon-card">
+          <div class="cs-badge">Coming Soon</div>
+          <h3>Microservices Architecture</h3>
+          <p>A distributed system built using microservices principles — service discovery, API gateway, inter-service communication, and independent deployability.</p>
+          <div class="project-stack sm">
+            <span>Spring Cloud</span><span>Kubernetes</span><span>Docker</span><span>AWS</span>
+          </div>
+          <div class="soon-glow"></div>
+        </div>
+
+        <!-- Train API -->
+        <div class="project-card reveal">
+          <div class="project-meta">
+            <span class="project-status active">Completed</span>
+          </div>
+          <h3>Train Ticket Booking API</h3>
+          <p>REST API featuring full CRUD operations, JWT authentication, input validation, exception handling, and pagination. A focused exercise in clean API design.</p>
+          <div class="project-stack sm">
+            <span>Java</span><span>Spring Boot</span><span>JWT</span><span>MySQL</span>
+          </div>
+          <div class="project-actions mt">
+            <a href="https://github.com/Anuj-code-AI" target="_blank" class="btn-ghost sm">GitHub ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY / TIMELINE -->
+  <section class="section section-alt" id="journey">
+    <div class="container">
+      <div class="section-label reveal">Journey</div>
+      <h2 class="section-title reveal">How I got here</h2>
+      <p class="section-sub reveal">A year of intentional, progressive skill-building.</p>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Aug 2024</span>
+            <h4>Started B.Tech in IT</h4>
+            <p>Enrolled at Medicaps University. Began with Java fundamentals and core CS concepts — OOP, DSA, DBMS, Computer Networks.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Early 2025</span>
+            <h4>Java & Spring Boot</h4>
+            <p>Completed a full Spring Boot course on Udemy. Built my first REST APIs, learned Hibernate and Spring Data JPA.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Mid 2025</span>
+            <h4>Security & Authentication</h4>
+            <p>Implemented JWT and OAuth 2.0 with Spring Security. Learned role-based access control and token lifecycle management.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Sep 2025</span>
+            <h4>Smart India Hackathon 2025</h4>
+            <p>Participated in one of India's largest national-level hackathons. Applied backend skills under real pressure and time constraints.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Dec 2025</span>
+            <h4>Hotel Management System</h4>
+            <p>Built first complete project: a console-based hotel management system using JDBC and MySQL with clean OOP architecture.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Apr 2026</span>
+            <h4>CampusHive — Flagship Project</h4>
+            <p>Built a production-grade multi-university event platform with Spring Boot, JWT, OAuth 2.0, and Docker. The most complex system I've shipped.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot active"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Now</span>
+            <h4>Spring AI + Microservices + Cloud</h4>
+            <p>Building an AI-powered platform with LLMs and Spring AI. Simultaneously learning microservices architecture, Kubernetes, and AWS.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <div class="section-label reveal">Achievements</div>
+      <h2 class="section-title reveal">Milestones</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="ach-num gradient-text">280+</div>
+          <div class="ach-label">LeetCode Problems Solved</div>
+          <div class="ach-sub">DSA across arrays, trees, graphs, DP</div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-icon">🏆</div>
+          <div class="ach-label">Smart India Hackathon 2025</div>
+          <div class="ach-sub">National-level participation</div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-icon">⚡</div>
+          <div class="ach-label">Hack'Vento 2026</div>
+          <div class="ach-sub">Competitive hackathon participant</div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-icon">📜</div>
+          <div class="ach-label">Certified: Spring Boot</div>
+          <div class="ach-sub">Udemy – Spring Boot Certification</div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-icon">🧠</div>
+          <div class="ach-label">Analytical Reasoning</div>
+          <div class="ach-sub">Board Infinity – Logical Reasoning Cert</div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-icon">🐳</div>
+          <div class="ach-label">Dockerized Production App</div>
+          <div class="ach-sub">CampusHive deployed with Docker Compose</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GITHUB STATS -->
+  <section class="section section-alt" id="github">
+    <div class="container">
+      <div class="section-label reveal">GitHub</div>
+      <h2 class="section-title reveal">Activity</h2>
+      <div class="github-grid">
+        <img class="github-stat reveal" src="https://github-readme-stats.vercel.app/api?username=Anuj-code-AI&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7c3aed&icon_color=7c3aed&text_color=c9d1d9" alt="Anuj's GitHub stats" loading="lazy" />
+        <img class="github-stat reveal" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anuj-code-AI&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7c3aed&text_color=c9d1d9" alt="Top Languages" loading="lazy" />
+      </div>
+      <div class="github-cta reveal">
+        <a href="https://github.com/Anuj-code-AI" target="_blank" class="btn-primary">View GitHub Profile ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section class="section resume-section" id="resume">
+    <div class="container">
+      <div class="resume-card reveal">
+        <div class="resume-left">
+          <div class="section-label">Resume</div>
+          <h2>See the full picture.</h2>
+          <p>Projects, certifications, education, and skills — all in one document.</p>
+          <a href="Resume.pdf" download class="btn-primary lg">Download Resume ↓</a>
+        </div>
+        <div class="resume-visual">
+          <div class="resume-mock">
+            <div class="rm-line thick"></div>
+            <div class="rm-line medium"></div>
+            <div class="rm-line"></div>
+            <div class="rm-divider"></div>
+            <div class="rm-line"></div>
+            <div class="rm-line medium"></div>
+            <div class="rm-line short"></div>
+            <div class="rm-divider"></div>
+            <div class="rm-line"></div>
+            <div class="rm-line medium"></div>
+            <div class="rm-line short"></div>
+            <div class="rm-line short"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-label reveal">Contact</div>
+      <h2 class="section-title reveal">Let's talk.</h2>
+      <p class="section-sub reveal">Open to internships, full-time roles, and interesting engineering conversations.</p>
+      <div class="contact-grid">
+        <div class="contact-links reveal">
+          <a href="mailto:achourasiyaanuj@gmail.com" class="contact-item">
+            <div class="ci-icon">✉️</div>
+            <div class="ci-info">
+              <span class="ci-label">Email</span>
+              <span class="ci-value">achourasiyaanuj@gmail.com</span>
+            </div>
+            <span class="ci-arrow">↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/anujchourasiya" target="_blank" class="contact-item">
+            <div class="ci-icon">💼</div>
+            <div class="ci-info">
+              <span class="ci-label">LinkedIn</span>
+              <span class="ci-value">anujchourasiya</span>
+            </div>
+            <span class="ci-arrow">↗</span>
+          </a>
+          <a href="https://github.com/Anuj-code-AI" target="_blank" class="contact-item">
+            <div class="ci-icon">🐙</div>
+            <div class="ci-info">
+              <span class="ci-label">GitHub</span>
+              <span class="ci-value">Anuj-code-AI</span>
+            </div>
+            <span class="ci-arrow">↗</span>
+          </a>
+          <div class="contact-item no-link">
+            <div class="ci-icon">📍</div>
+            <div class="ci-info">
+              <span class="ci-label">Location</span>
+              <span class="ci-value">Indore, Madhya Pradesh, India</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about the opportunity or what you'd like to discuss..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-name">AC<span class="dot">.</span></span>
+      <span class="footer-copy">Made with ❤️ by Anuj Chourasiya</span>
+      <div class="footer-links">
+        <a href="https://github.com/Anuj-code-AI" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/anujchourasiya" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
